@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<string.h>
+struct stu
+{
+	char name[20];
+	int  price ;
+};
+int main()
+{
+	struct stu b1 = {"c语言程序设计",18};
+	printf("书名为:%s\n",b1.name);
+	printf("价钱为:%d\n",b1.price);
+	return 0;
+}
