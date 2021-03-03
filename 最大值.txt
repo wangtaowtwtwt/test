@@ -1,0 +1,18 @@
+int get_max(int x,int y)
+{
+	if(x<y)
+
+	return y;
+
+    else
+
+	return x;
+}
+#include<stdio.h>
+int main()
+{
+	int a = 20;
+	int b = 30;
+    int max = get_max(a,b);
+	printf("max = %d\n",max);
+}
